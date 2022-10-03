@@ -5,31 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+   
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./resources/css/style.css">
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="./index.html"><img src="./resources/images/logo.png" height="60" width="100"/></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="./about.html">about.html</a>
+                <a class="nav-link" href="./about.html">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Products</a>
               </li>
               
           </div>
         </div>
       </nav>
 
+    <main> 
+      <div class="container"> <!--start of div container-->
+        <div class="col-12">
 
-      <p>You made it to the index.html page</p>
+          <div class="row"> 
+            <figure class="figure">
+              <img src="./resources/images/strawberries.jpg" class=" figure-img img-fluid" alt="picture of BerryLand Farm strawberries">
+              <figcaption class=" figure-caption text-muted fst-italic">BerryLand's fresh strawberries</figcaption>
+            </figure>  
+          </div><!--ends row 1 div-->
 
+          <div class="row text-center"> 
+            <section> 
+              <p> Here at BerryLand Farm, Our top priority is growing and harvesting high quality strawberries for families across the United States to enjoy. </p>
+              <p> We are commited to bringing delicious strawberries to be enjoyed in any form- Jam, syrup or the old fashioned way!</p>
+              <p> Come and explore what we are about, and check out our various strawberry products!</p>
+            </section>
+          </div><!--ends row 2 div-->
+
+          <div class="row">
+            <blockquote class="blockquote text-center fst-italic p-3 border rounded text-white">
+              <p>"I always buy my strawberries from BerryLand Farm! They have some of the most juiciest strawberries!"</p>
+              <p class="fst-italic"> - One of our customers</p>
+            </blockquote>
+          </div><!--ends row 3 div-->
+
+          <div class="row">
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./resources/images/berries.jpg" class="d-block w-100" alt="strawberries in a container">
+                  <div class="carousel-caption p-3 d-none d-md-block border border-4 rounded-3 bg-white text-secondary "</div>
+                    <h5>Our delicious berries!</h5>
+                    <p>Homegrown for your enjoyment!</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./resources/images/berries2.jpg" class="d-block w-100" alt="strawberries on a vine">
+                  <div class="carousel-caption d-none d-md-block border border-4 p-3 rounded-3 bg-white text-secondary">
+                    <h5>On the vine</h5>
+                    <p>We make sure our berries are grown to perfection before harvest.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./resources/images/field.jpg" class="d-block w-100" alt="strawberry field">
+                  <div class="carousel-caption d-none d-md-block p-3 border border-4 rounded-3 bg-white text-secondary">
+                    <h5>Strawberry Field</h5>
+                    <p>Where our strawberries are grown!</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+
+
+        </div> <!--ends col div-->
+
+      </main>
+      </div> <!--end of div container-->   
+      
+      
+   
+
+      <footer>
+        <!-- Copyright -->
+        <div class="text-center p-2" >
+          <p>Made by Yvette</p>
+          © 2022 Copyright
+        </div>
+        
+      </footer>
+    <!-- <footer class="text-center mb-0">
+      <p> Made by Yvette </p>
+      <p> &copy; 2022</p>
+    </footer> -->
    <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
 </body>

@@ -1,2 +1,34 @@
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+ }
+
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins','Times New Roman', serif;}
+
+
+nav, footer{
+   
+    background-color:hsla(336, 100%, 90%, 1);
+}
+
+blockquote{
+    background-color: hsla(328, 100%, 70%, 1);
+}
+
+div .carousel-caption{
+    border-color: hsla(328, 100%, 70%, 1) !important ;
+    margin: 0px auto;
+    height: 5rem;
+    width:fit-content;
+}
+
+
 
 
