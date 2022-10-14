@@ -29,6 +29,60 @@ div .carousel-caption{
     width:fit-content;
 }
 
+/*about.html page*/
+
+/*background div*/
+
+.background{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/resources/images/farm3.jpg");
+    background-repeat: no-repeat;
+    height: 44em; /*for background images-must include height! wont show up on page if you dont have it*/
+    background-size: cover;
+     
+}
+
+.background__title{
+    width: 100%;
+    color:white;
+    background-color:hsla(334, 100%, 73%,0.5) ;
+    margin-bottom: 20em;
+}
+
+/*our story section*/
+.story{
+    display:flex; 
+    margin-top: 5em; 
+    width:100%;
+    /* justify-content: center; */
+    align-items: center;
+   margin: 10px auto;
+    gap: 3em;
+}
+.story__infor{
+
+flex-grow: 2;
+}
+
+.story__infor h2{
+    font-weight:bold;
+    color:  hsla(328, 100%, 70%, 1);
+}
+.story__img{
+    /* max-width: 100%;
+    height:auto; */
+flex-shrink: 2;
+padding-right: 0.3em;
+
+}
+
+.story__container{
+    width: 80%;
+    text-align: center;
+    margin:0 12px;
+}
 
 
 
