@@ -11,7 +11,10 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Poppins','Times New Roman', serif;}
+img{
+    max-width: 100%;/*add to make images responsive*/
 
+}
 
 nav, footer{
    
