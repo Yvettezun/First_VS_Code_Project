@@ -40,7 +40,7 @@ div .carousel-caption{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: url('/resources/images/farm3.jpg');
+    background-image: url('https://yvettezun.github.io/First_VS_Code_Project/resources/images/farm3.jpg');
     background-repeat: no-repeat;
     height: 44em; /*for background images-must include height! wont show up on page if you dont have it*/
     background-size: cover;
