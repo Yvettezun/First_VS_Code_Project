@@ -12,7 +12,7 @@
     box-sizing: border-box;
     font-family: 'Poppins','Times New Roman', serif;}
 img{
-    max-width: 100%;/*add to make images responsive*/
+    max-width: 100%;
 
 }
 
@@ -59,7 +59,6 @@ div .carousel-caption{
     display:flex; 
     margin-top: 5em; 
     width:100%;
-    /* justify-content: center; */
     align-items: center;
    margin: 10px auto;
     gap: 3em;
@@ -73,9 +72,12 @@ flex-grow: 2;
     font-weight:bold;
     color:  hsla(328, 100%, 70%, 1);
 }
+
+.story__infor span{
+    font-style: italic;
+}
 .story__img{
-    /* max-width: 100%;
-    height:auto; */
+    
 flex-shrink: 2;
 padding-right: 0.3em;
 
@@ -85,6 +87,58 @@ padding-right: 0.3em;
     width: 80%;
     text-align: center;
     margin:0 12px;
+}
+
+
+
+/*products page */
+
+.header__title {
+    text-align: center;
+    padding-top: 1em;
+    font-weight: 800;
+    color: rgb(225, 72, 154);
+}
+
+.card-img-top{
+    max-width: 100%;
+    height: 70%;
+    padding-bottom: 1em;
+    object-fit: cover;
+}
+
+
+.col{
+    display:flex;
+    justify-content: center;
+    align-content:center;
+}
+
+
+
+.row__title{
+    text-align:center;
+    margin: 1em;
+}
+
+
+.body--bg{
+    background-color: hsla(345, 100%, 96%, 0.95);
+}
+
+.card--titlePink{
+    color: rgb(225, 72, 154);
+    font-weight: 800;
+}
+
+.btn--color{
+    background-color:hsla(328, 100%, 70%, 1) ;
+    color:white;
+}
+
+.btn--color:hover{
+    color:black;
+    border: solid hsla(328, 100%, 70%, 1) 3px  !important;
 }
 
 
